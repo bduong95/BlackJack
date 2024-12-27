@@ -14,11 +14,41 @@ body {
 }
 
 .main-body {
-
+    display: block;
 }
 
-.main-title {
+.temp-title {
     font-weight: bold;
     color: red;
     text-align: center;
+}
+
+.deal-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.deal-button button {
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.playing-table {
+    display: flex;
+    justify-content: space-around;
+    border: solid #000 1px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.player-box {
+    border: solid #000 1px;
+    
+}
+
+.player-box img {
+    margin-top: 10px;
 }
