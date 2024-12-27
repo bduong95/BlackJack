@@ -10,10 +10,27 @@ let cardFlipSound = new Audio("sounds/card_flip.mp3");
 
 document.addEventListener("click", function(event) {
     flipCard();
+    showCard();
 })
 
 // Card flip sound effect
 function flipCard() {
     cardFlipSound.playbackRate=2;
     cardFlipSound.play();
+}
+
+// Dummy function
+function showCard() {
+    let cards = document.getElementsByClassName("player-card");
+
+    for (const card  of cards) {
+        console.log(card);
+        card.classList.add("pressed"); // Adding a class 'pressed'
+
+        // After 100 milliseconds
+        setTimeout(function() {
+            card.classList.remove("pressed");
+        }, 100);
+    }
+    
 }

@@ -46,9 +46,14 @@ body {
 
 .player-box {
     border: solid #000 1px;
-    
 }
 
-.player-box img {
+.player-card {
     margin-top: 10px;
+}
+
+/* Button Pressed */
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
 }
