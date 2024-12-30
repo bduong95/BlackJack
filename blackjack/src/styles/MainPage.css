@@ -1,0 +1,59 @@
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.main-body {
+    display: block;
+}
+
+.temp-title {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.deal-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.deal-button button {
+    padding: 20px;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.playing-table {
+    display: flex;
+    justify-content: space-around;
+    border: solid #000 1px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.player-box {
+    border: solid #000 1px;
+}
+
+.player-card {
+    margin-top: 10px;
+}
+
+/* Button Pressed */
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
