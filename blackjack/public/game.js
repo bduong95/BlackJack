@@ -6,6 +6,9 @@
 
 // Condition to Win (Higher than dealer's value AND less than or equal to 21) (Dealer must stop drawing at a value fo 17))
 
+// Create a deck and assign values to the cards
+// Create a dummy function to take a card from the desk and update the deck
+
 let cardFlipSound = new Audio("sounds/card_flip.mp3");
 
 document.addEventListener("click", function(event) {
