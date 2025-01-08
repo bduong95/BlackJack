@@ -1,4 +1,5 @@
 import "../styles/MainPage.css"
+import Card from "./Card";
 
 function MainPage() {
     return(
@@ -12,13 +13,14 @@ function MainPage() {
             <div className="playing-table">
                 <div className="player-box">
                     <h4>Player</h4>
-                    <img className="player-card" src="images/purple card.JPG"/>
+                    <div className="player-card"><Card /></div>
                 </div>
                 <div className="player-box">
                     <h4>Dealer</h4>
-                    <img className="player-card" src="images/purple card.JPG"/>
+                    <div className="player-card"><Card /></div>
                 </div>
             </div>
+            
         </div>
     )
 }
